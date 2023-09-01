@@ -1,34 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<br/>
+<p align="center">
+  <a href="https://github.com/ShaanCoding/Rock | Paper | Scissors">
+    <img src="https://static.thenounproject.com/png/2699125-200.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Rock | Paper | Scissors</h3>
+
+  <p align="center">
+    O bom e velho pedra, papel ou tesoura agora na versão WEB
+    <br/>
+    <br/>
+    <a href="https://github.com/ShaanCoding/Rock | Paper | Scissors"><strong>Explore the docs »</strong></a>
+    <br/>
+    <br/>
+    <a href="https://github.com/ShaanCoding/Rock | Paper | Scissors">View Demo</a>
+    .
+    <a href="https://github.com/ShaanCoding/Rock | Paper | Scissors/issues">Report Bug</a>
+    .
+    <a href="https://github.com/ShaanCoding/Rock | Paper | Scissors/issues">Request Feature</a>
+  </p>
+</p>
+
+
+
+## About The Project
+
+![Screen Shot](images/screenshot.png)
+
+I developed a 'Rock, Paper, Scissors' game using React, Next.js, and Tailwind CSS. React enabled code modularization into reusable components, ensuring an organized structure. With Next.js, I achieved better performance and improved SEO. Tailwind CSS simplified styling, resulting in an efficient user interface.
+
+## Built With
+
+React ✅
+
+Next.js ✅
+
+Tailwind CSS ✅
 
 ## Getting Started
 
-First, run the development server:
+Install all dependencies
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+* npm
+
+```sh
+npm install npm@latest -g
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repo
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```sh
+git clone https://github.com/your_username_/Project-Name.git
+```
 
-## Learn More
+2. Install NPM packages
 
-To learn more about Next.js, take a look at the following resources:
+```sh
+npm install
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Creating A Pull Request
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Deploy on Vercel
+## Authors
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* **Caio Freire** - *Full Stack Developer* - [Caio Freire](https://github.com/devCaioFreire) - **
