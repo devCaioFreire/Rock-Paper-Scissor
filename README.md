@@ -25,7 +25,7 @@
 
 ## About The Project
 
-<img src="https://static.thenounproject.com/png/2699125-200.png](https://i.pinimg.com/564x/87/15/9f/87159fc0de3ab45afbce9f0fa2eac0f7.jpg" alt="screenshot" width="100%" height="80%">
+![Screen Shot](https://i.pinimg.com/564x/87/15/9f/87159fc0de3ab45afbce9f0fa2eac0f7.jpg)
 
 I developed a 'Rock, Paper, Scissors' game using React, Next.js, and Tailwind CSS. React enabled code modularization into reusable components, ensuring an organized structure. With Next.js, I achieved better performance and improved SEO. Tailwind CSS simplified styling, resulting in an efficient user interface.
 
