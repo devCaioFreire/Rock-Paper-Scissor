@@ -1,6 +1,13 @@
+import { Container } from "./components/Container";
+import { Hands } from "./components/Hands";
+import { Header, ScoreType } from "./components/Header";
 
-export default function Home() {
+export default function Home({ score }: ScoreType) {
+  console.log('Principal', score);
   return (
-    <h1>ROCK - PAPER - SCISSOR</h1>
+    <Container>
+      <Header score={score} />
+      <Hands />
+    </Container>
   )
 }
