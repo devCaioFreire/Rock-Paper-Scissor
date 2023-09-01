@@ -1,9 +1,13 @@
+'use client'
 import { Container } from "./components/Container";
 import { Hands } from "./components/Hands";
-import { Header, ScoreType } from "./components/Header";
+import Header from "./components/Header";
 
-export default function Home({ score }: ScoreType) {
+export default function Home() {
+  const savedScore = localStorage.getItem('score');
+  const score = savedScore ? parseInt(savedScore) : 0;
   console.log('Principal', score);
+
   return (
     <Container>
       <Header score={score} />

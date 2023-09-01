@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { FaHandPaper, FaHandRock, FaHandScissors } from "react-icons/fa";
 import { Container } from "../components/Container";
 import { ContainerHands } from "../components/ContainerHands";
-import { Header } from "../components/Header";
+import Header from "../components/Header";
 
 export default function Game() {
   const router = useRouter();
@@ -60,7 +60,7 @@ export default function Game() {
 
     // Atualize o estado do score
     setScore((prevScore) => prevScore + roundScore);
-    console.log('Game:',score);
+    console.log('Game:', score);
   }, [selectedOption]);
 
   useEffect(() => {

@@ -3,7 +3,7 @@ import { FaHandPaper, FaHandRock, FaHandScissors } from 'react-icons/fa';
 export type ScoreType = {
   score: number;
 }
-export const Header = ({ score }: ScoreType) => {
+export default function Header({ score }: ScoreType){
   console.log('Header:', score);
   return (
     <header className="flex items-center justify-between mx-4 px-4 py-2 w-full h-[30%] border border-stone-500 rounded ">
