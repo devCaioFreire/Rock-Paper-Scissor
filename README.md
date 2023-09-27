@@ -60,7 +60,7 @@ git clone https://github.com/devCaioFreire/rock-paper-scissor.git
 ```sh
 npm install
 ```
-2. Run project
+3. Run project
 
 ```sh
 npm start
